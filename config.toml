@@ -1,0 +1,17 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Photo"
+author = "Mr Mendes"
+theme = "nov"
+pygmentsstyle = 'monokai'
+paginate = 2
+
+[social]
+  twitter = "#"
+  github = "#"
+  instagram = "#"
+  linkedin = "#"
+  dribbble = "#"
+  youtube = "#"
+[taxonomies]
+  author = "authors"
