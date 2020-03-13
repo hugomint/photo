@@ -4,10 +4,10 @@ date: 2019-03-11
 hero: "/images/hero-2.jpg"
 excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
 authors:
-  - Dave
----
+- Dave
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+---
+Super this article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 
 <!--more-->
 
@@ -45,24 +45,24 @@ The blockquote element represents content that is quoted from another source, op
 #### Blockquote with attribution
 
 > Don't communicate by sharing memory, share memory by communicating.
-> — <cite>Rob Pike[^1]</cite>
+> — <cite>Rob Pike\[^1\]</cite>
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+\[^1\]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
 ## Tables
 
 Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
 
-| Name  | Age |
-| ----- | --- |
-| Bob   | 27  |
-| Alice | 23  |
+| Name | Age |
+| --- | --- |
+| Bob | 27 |
+| Alice | 23 |
 
 #### Inline Markdown within tables
 
-| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
-| ------------------------ | -------------------------- | ----------------------------------- | ------ |
-| _italics_                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
+| Inline    | Markdown    | In    | Table |
+| --- | --- | --- | --- |
+| italics | bold | strikethrough    | code |
 
 ## Code Blocks
 
@@ -89,11 +89,11 @@ html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
+<meta charset="UTF-8">
+<title>Example HTML5 Document</title>
 </head>
 <body>
-  <p>Test</p>
+<p>Test</p>
 </body>
 </html>
 {{< /highlight >}}
@@ -108,13 +108,13 @@ html
 
 #### Unordered List
 
-- List item
-- Another item
-- And another item
+* List item
+* Another item
+* And another item
 
 #### Nested list
 
-- Item
+* Item
 
 1. First Sub-item
 2. Second Sub-item
