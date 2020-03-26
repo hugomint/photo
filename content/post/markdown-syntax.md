@@ -1,8 +1,10 @@
 ---
-title: Markdown Syntax Guide
-date: 2019-03-11
-hero: "/images/hero-2.jpg"
-excerpt: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+title: Markdown Syntax Guide Sweet
+date: 2019-03-11T00:00:00.000Z
+hero: /images/hero-2.jpg
+excerpt: >-
+  Sample article showcasing basic Markdown syntax and formatting for HTML
+  elements.
 authors:
   - Dave
 ---
