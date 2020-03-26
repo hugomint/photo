@@ -23,4 +23,3 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Bio", name: "bio", widget: "string" }
       - { label: "Avatar", name: "avatar", widget: "image" }
-# you are required to set the backend to enable git-backend
