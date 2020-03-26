@@ -15,3 +15,12 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Excerpt", name: "excerpt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "authors"
+    label: "Authors"
+    folder: "content/authors"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "string" }
+      - { label: "Avatar", name: "avatar", widget: "image" }
+# you are required to set the backend to enable git-backend
