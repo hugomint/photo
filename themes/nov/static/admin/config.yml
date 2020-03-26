@@ -1,8 +1,9 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+
 media_folder: themes/nov/static/images
-public_folder: themes/nov/static/images
+
 collections:
   - name: "blog"
     label: "Blog"
