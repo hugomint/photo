@@ -6,20 +6,25 @@ media_folder: themes/nov/static/images
 public_folder: /images
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/post"
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/post'
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Excerpt", name: "excerpt", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-  - name: "authors"
-    label: "Authors"
-    folder: "content/authors"
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'authors'
+    label: 'Authors'
+    folder: 'content/authors'
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Bio", name: "bio", widget: "string" }
-      - { label: "Avatar", name: "avatar", widget: "image" }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Bio', name: 'bio', widget: 'string' }
+      - { label: 'Avatar', name: 'avatar', widget: 'image' }
+  - name: 'about'
+    label: 'About'
+    file: 'about.md'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
