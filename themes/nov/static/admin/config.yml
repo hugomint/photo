@@ -23,8 +23,15 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Bio', name: 'bio', widget: 'string' }
       - { label: 'Avatar', name: 'avatar', widget: 'image' }
-  - name: 'about'
-    label: 'About'
-    file: 'about.md'
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
+  - name: 'settings'
+    label: 'Settings'
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: 'about'
+        label: 'About'
+        file: 'content/about.md'
+        description: 'The about page'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
